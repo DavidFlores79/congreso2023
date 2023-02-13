@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-
+    <link rel="icon" type="image/png" href="{{ asset('images/brand/favicon.png') }}"/>
     <!-- Swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -198,11 +198,13 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-3">
-                    <a href="#" class="footer-site-logo">Colorlib</a>
+                    <a href="#" class="footer-site-logo">
+                        <img height="40" src="{{ asset('images/brand/logo-white.svg') }}" alt="">
+                    </a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit officiis corporis optio natus. </p>
                 </div>
                 <div class="col-md-2 ml-auto">
-                    <h3>Shop</h3>
+                    <h3>Contáctanos</h3>
                     <ul class="list-unstyled links">
                         <li><a href="#">Sell online</a></li>
                         <li><a href="#">Features</a></li>
@@ -212,7 +214,7 @@
                     </ul>
                 </div>
                 <div class="col-md-2 ml-auto">
-                    <h3>Press</h3>
+                    <h3>Redes Sociales</h3>
                     <ul class="list-unstyled links">
                         <li><a href="#">Events</a></li>
                         <li><a href="#">News</a></li>
@@ -222,7 +224,7 @@
                     </ul>
                 </div>
                 <div class="col-md-2 ml-auto">
-                    <h3>About</h3>
+                    <h3>Acerca de Nosotros</h3>
                     <ul class="list-unstyled links">
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Services</a></li>
